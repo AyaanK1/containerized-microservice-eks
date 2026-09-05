@@ -3,7 +3,7 @@
 A minimal Flask microservice deployed to Amazon EKS via Terraform and Helm,
 with a GitHub Actions pipeline that builds the image, pushes it to ECR, and
 rolls it out to the cluster.
-
+![Architecture diagram](containerzied-microseverices-eks-architecture.png)
 ## Architecture
 
 - **VPC**: 2 AZs, public + private subnets, NAT gateway per AZ — from the
